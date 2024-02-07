@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.navbar li{
+    list-style:none;
+    margin: 0 12px;
+
+}
+.topleft{
+width: 50%;
+}
+.topright{
+width: 50%;
+
+}
+.sec1{
+    min-height: 100vh;
+}
+.logo{
+    font-size: 1.3rem; 
+}
+.dumimg{
+    width: 289px;
+}
+.topright .gym{
+    width: 566px;
+
+}
+.sec1 h1{
+    font-size: 1.7rem;
+}
+.sec2{
+    padding: 73px;
+ 
+    
+}
+.sec2 h1{
+    font-size: 3rem;
+}
+.sec2 p{
+    padding: 0 8vw;
+    text-align:center;
+}
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+min-width: 20vw;
+border: 2px solid rgb(255, 139, 158);
+text-align: center;
+border-radius: 8px;
+}
+.highlighted{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box h2{
+    font-size: 2rem;
+    padding: 12px;
+}
+.box ul{
+    list-style-type: none;
+}
+.box ul li{
+  margin: 12 2px;
+  margin-left: 2px;
+  text-align: left;
+
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3 table{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 140px 0;
+    border-collapse: collapse;
+}
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid rgb(255, 139, 158) ;
+    padding: 15px 0;
+   
+}
+.section3 table td{
+    width: 23vw;
+    border-bottom: 2px solid rgb(255, 139, 158) ;
+    
+}
+.section3 h1{
+    font-size: 2.3rem;
+}
+.section3{
+    padding: 73px;
+    
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
